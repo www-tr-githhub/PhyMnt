@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PhyMnt - Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="homestyle.css">
+    <script src="https://kit.fontawesome.com/6c895689b6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+      <!------------------- navbar section ------------------>
+
+        <nav class="navbar navbar-expand-lg bg-$cyan-300">
+            <div class="container-fluid">
+                <a class="navbar-brand name" href="#">PhyMnt</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-warning fs-5" aria-current="page" href="index.html" target="blank">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning fs-5" href="about.html" target="blank">ABOUT</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-warning fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      TOPICS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Mental Health</a></li>
+                      <li><a class="dropdown-item" href="index.html">Physical Health</a></li>
+                      <li><a class="dropdown-item" href="index.html">Doctor's Advice</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="about.html">About</a></li>
+                      <li><a class="dropdown-item" href="contact.html" >CONTACT</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning fs-5" href="contact.html">CONTACT</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+            <img src="sun.png" alt="hy" id="sunimg">
+          </nav>
+          <form>
+                <div class="container my-4">
+                <form class="row g-3">
+                    <div class="row">
+                        <div class="col-md-6 mx-auto">
+                          <label for="inputEmail4" class="form-label text-danger fs-5">Email</label>
+                          <input type="email" class="form-control align-self-center" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6 mx-auto">
+                          <label for="inputPassword4" class="form-label text-danger fs-5">Password</label>
+                          <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                        <div class="col-12 mx-auto">
+                          <label for="inputAddress" class="form-label text-danger fs-5">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12 mx-auto">
+                          <label for="inputAddress2" class="form-label text-danger fs-5">Address 2</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="row">
+                        <div class="col-md-6 mx-auto">
+                          <label for="inputCity" class="form-label text-danger fs-5">City</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-6 mx-auto">
+                          <label for="inputState" class="form-label text-danger fs-5">Select the Course You want</label>
+                          <select id="inputState" class="form-select">
+                                <option selected></option>
+                                <option value="1">AI</option>
+                                <option value="2">MACINE LEARNING</option>
+                                <option value="3">WEB DEVELOPMENT</option>
+                                <option value="4">APP DEVELOPMENT</option>
+                                <option value="5">DATA SCIENCE</option>
+                                <option value="6">PYTHON</option>
+                          </select>
+                        </div>
+                    </div>
+                        <div class="col-md-2 text-danger fs-5 mx-auto">
+                          <label for="inputZip" class="form-label">PIN</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                          <div class="form-check ">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label text-danger fs-5" for="gridCheck">
+                              Check me out
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                          <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                      </form>
+                    </div>
+          <footer class="blog-footer">
+                <p class="fs-4">Blog template built by <a href="https://www.linkedin.com/in/abhishek-das-62401a21b/" target="blank">PhyMnt Team</a>.</p>
+                <p>
+                  <a class="fs-4" href="#">Back to top</a>
+                </p>
+              </footer>
+          <!-------------    footer section           ----------->
+          <script src="health2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

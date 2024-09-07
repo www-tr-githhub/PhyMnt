@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background: linear-gradient(to right,#1a1392,#df1607);/*#d8362a*/
+}
+.size{
+    width: 100vw;
+    height: 70vh;
+}
+.name{
+    font-size: 30px;
+    color: #ca2637;
+}
+body{
+    background-color: white;
+}
+/*cards*/
+.card{
+    background: #1a1392;
+    color: white;
+}
+.audio{
+    width: 280px;
+    margin: 20px;
+  }
+
+.reading{
+    width: 280px;
+    margin: 20px;
+  }
+  .yoga{
+    width: 280px;
+    margin: 20px;
+  }
+.doctor{
+    width: 280px;
+    margin-left: 20px;
+  }
+  .talking{
+    width: 280px;
+    margin-left: 20px;
+  }
+
+.laughing{
+    width: 280px;
+    margin-left:20px;
+  }
+
+  /*images*/
+.img-meditation
+{
+    height: 40vh;
+}
+#sunimg{
+    height: 30px;
+    width: 30px;
+}
+.size img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+.col-4 img{
+    display: inline-block;
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+    opacity: 1;
+}
+.features{
+    padding: 10rem 0;
+}
+.box-wrapper{
+    box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.301);
+}
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*buttons*/
+
+/*box-design*/
+.box1,.box3{
+    background: #263238;
+    color: white;
+}
+.box3{
+    background: linear-gradient(to right,#af27afe5,#ca2637);
+    color: white;
+}
+.box2{
+    background: linear-gradient(25deg,#b33b67,#ca2637 30%);
+    color: whitesmoke;
+}
+.box{
+    width: 33.333333333333%;
+    float: left;
+    /* border: 3px solid blueviolet; */
+    padding: 2rem;
+    text-align: center;
+}
+
+.blog-footer{
+    width: 100%;
+    padding: 1rem 1rem;
+    text-align-last: center;
+    color: #ca2637;
+    background: #263238;
+    border-top: 0.05rem solid #e5e5e5;
+}
